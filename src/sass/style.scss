@@ -1,0 +1,85 @@
+main {
+    font-family: "Roboto-Regular";
+    display: flex;
+    flex-direction: row;
+}
+.input {
+    width: 457px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 99px;
+    @media (max-width: 320px) {
+        width: 290px;
+        height: 349px;
+    }    
+}
+.both {
+    display: flex;
+    margin-bottom: 10px;
+}
+.card2 {
+    width: 240px;
+    height: 57px;
+    margin: 0 10px 10px 0;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    @media (max-width: 320px) {
+        width: 290px;
+        height: 57px;
+        margin: 0 0 10px 0;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    } 
+}
+.vod {
+    width: 236px;
+    height: 36px;
+    box-shadow: 1px 1px 5px 0px #00000012 inset;
+    border: 0
+}
+.txt {
+    margin-top: 0
+}
+.fatty {
+    width: 453px;
+    height: 142px;
+    box-shadow: 1px 1px 5px 0px #00000012 inset;
+    border: 0
+}
+.buttons {
+    margin-top: 20px;
+    margin-left: 178px;
+}
+.w-bt {
+    width: 149px;
+    height: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #00000012;
+    color: #414141;
+}
+.g-bt {
+    background-color: #245462;
+    width: 106px;
+    height: 40px;
+    color: #FFFFFF;
+    margin-left: 20px
+}
+.text {
+
+}
+.connection {
+    width: 365px;
+    height: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;;
+    &-stuff {
+        margin-right: 37px;
+    }
+}
+@import 'mixin';
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

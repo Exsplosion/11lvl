@@ -1,0 +1,47 @@
+@mixin cardi {
+    width: 207px;
+    height: 57px;
+    margin: 0 10px 10px 0;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+}
+@mixin card {
+    width: 290px;
+    height: 57px;
+    margin: 0 0 10px 0;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    @media (max-width: 320px) {
+        width: 290px;
+        height: 57px;
+        margin: 0 0 10px 0;
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    } 
+}
+@mixin txt {
+    color: #969696;
+    font-size: 12px;
+}
+@mixin vvod {
+    width: 203px;
+    height: 36px;
+    box-shadow: 1px 1px 5px 0px #00000012 inset;
+    border: 0
+}
+@mixin calor {
+    color: #414141;
+    font-size: 14px
+}
+.cardi {
+    @include card();
+}
+.vvod {
+    @include vvod();
+}
+.txt {
+    @include txt();
+}
+.calor {
+    @include calor();
+}
+.card {
+    @include card();
+}
